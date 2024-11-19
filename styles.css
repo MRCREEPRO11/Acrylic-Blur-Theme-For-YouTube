@@ -5,6 +5,62 @@
 ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-comments] > .menu-container.ytd-multi-page-menu-renderer:not(:hover), ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-conversations] > .menu-container.ytd-multi-page-menu-renderer:not(:hover), ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-notifications] > .menu-container.ytd-multi-page-menu-renderer:not(:hover), ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-comments] > ytd-multi-page-menu-renderer:not([scrolled-by-touch]), ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-conversations] > ytd-multi-page-menu-renderer:not([scrolled-by-touch]), ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-notifications] > ytd-multi-page-menu-renderer:not([scrolled-by-touch]){
     margin-right: 0;
 }
+/*blue logo*/
+g path[d='M14.4848 20C14.4848 20 23.5695 20 25.8229 19.4C27.0917 19.06 28.0459 18.08 28.3808 16.87C29 14.65 29 9.98 29 9.98C29 9.98 29 5.34 28.3808 3.14C28.0459 1.9 27.0917 0.94 25.8229 0.61C23.5695 0 14.4848 0 14.4848 0C14.4848 0 5.42037 0 3.17711 0.61C1.9286 0.94 0.954148 1.9 0.59888 3.14C0 5.34 0 9.98 0 9.98C0 9.98 0 14.65 0.59888 16.87C0.954148 18.08 1.9286 19.06 3.17711 19.4C5.42037 20 14.4848 20 14.4848 20Z'] {
+    fill: #077CFF;
+}
+	.ytp-cairo-refresh .ytp-settings-button.ytp-hd-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-hdr-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-4k-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-5k-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-8k-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-3d-badge-grey::after, .ytp-cairo-refresh .ytp-settings-button.ytp-3d-badge::after, button.ytp-subtitles-button.ytp-butt {
+    background-color: #00a6ff;
+}
+	.html5-play-progress, .ytp-play-progress {
+    background: linear-gradient(-45deg, #12A0FF, #19D9FF) !important;
+}
+.html5-play-progress, .ytp-play-progress:hover {
+    background: linear-gradient(-45deg, #12A0FF, #19D9FF) !important;
+}
+.html5-play-progress, .ytp-play-progress:active {
+    background: linear-gradient(-45deg, #12A0FF, #19D9FF) !important;
+}
+	div#sections.style-scope.ytd-guid, div#sections.style-scope.ytd-guide-renderer {
+		background: #065276
+	}
+	div.ytp-menuitem-toggle-checkbox {
+background-color: #12A0ff;
+	}
+	.ytp-cairo-refresh .ytp-menuitem[aria-checked=true] .ytp-menuitem-toggle-checkbox {
+    background: #088CFF;
+}
+	div.YtProgressBarLineProgressBarPlayed.YtProgressBarLineProgressBarPlayedRefresh, .YtProgressBarPlayheadProgressBarPlayheadDot{
+    background: linear-gradient(-45deg, #12A0FF, #19D9FF) !important;
+	}
+	.ytp-big-mode .ytp-volume-slider-handle {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    margin-top: -9px;
+    background: linear-gradient(-45deg, #12A0FF, #19D9FF) !important;
+}
+	.ytp-volume-slider-track, .ytp-volume-slider-handle:before{
+    background: linear-gradient(-45deg, #12A0FF, #19D9FF) !important;
+    z-index: -117;
+}
+	div.YtPlayerProgressBarDragContainer {
+		margin-top:-20px;
+	}
+	
+	div.cfyts-player-controls {
+		backdrop-filter: blur(10px);
+	}
+	.ytp-volume-slider-handle {
+    position: absolute;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-top: -6px;
+    background: linear-gradient(-45deg, #12A0FF, #19D9FF) !important;
+}
+	div.ytp-menuitem-content
 :root {
      --semiTransWhite: rgba(0, 0, 0, 0.15);
      --scrollBar: #11869B;
@@ -13,15 +69,73 @@ ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-comments] > .
      --themeDark: #062638;
      --cardBackground: rgba(125, 189, 199, 0.2);
 }
+div#glasp-yt-summary-widget.glasp-extension.glasp-yt-summary-widget, div#secondary.style-scope.ytd-watch-flexy, div.w-full{
+		background-color:var(--container-transparency)!important;
+	}
+
 #masthead {
-    background-color: var(--semiTransWhite);
-    backdrop-filter: saturate(120%) blur(36px);
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='1920' height='1080' viewBox='0 0 1920 1080' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.8'%3E%3Crect width='1920' height='1080' fill='%23067DB0'/%3E%3Crect width='1920' height='1080' fill='url(%23paint0_linear)'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='1694' y1='1029' x2='184.5' y2='22.5' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.0506657' stop-color='%23012940'/%3E%3Cstop offset='1' stop-color='%23003459' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+		background-size: 2150px, 20%!important;
+    		background-position: 100% 10000%, left!important;
+		background-color: #10091e!important;
+
+}
+.ytp-swatch-background-color {
+     background: linear-gradient(-45deg, #12A0FF, #19D9FF);
+}
+#page-header-container.ytd-tabbed-page-header {
+  background-color:var(--container-removal)
+}
+
+#page-header.ytd-tabbed-page-header { 
+  background-color:var(--container-transparency)
+}
+.tabs-content.scrollable.tp-yt-paper-tabs {
+  background-color:var(--container-removal)
+}
+div#tabs-inner-container.ytd-tabbed-page-header{
+  background-color:var(--container-removal)
+}
+#tabs-container.ytd-tabbed-page-header {
+  background-color:var(--container-removal)
+}
+yt-chip-cloud-chip-renderer.style-scope.ytd-feed-filter-chip-bar-renderer.iron-selected {
+   background-color: #0099CC
+}
+div#chips-wrapper.style-scope.ytd-feed-filter-chip-bar-renderer {
+  background-color: var(--container-transparency)
 }
 ytd-app, ytd-app[is-watch-page], ytd-simple-menu-header-renderer {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='1920' height='1080' viewBox='0 0 1920 1080' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.8'%3E%3Crect width='1920' height='1080' fill='%23067DB0'/%3E%3Crect width='1920' height='1080' fill='url(%23paint0_linear)'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='1694' y1='1029' x2='184.5' y2='22.5' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.0506657' stop-color='%23012940'/%3E%3Cstop offset='1' stop-color='%23003459' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+  		
+	div.navigation-container.style-scope.ytd-shorts {
+		background-color:var(--container-removal) !important
+	}
+
+}
+style-scope ytd-feed-filter-chip-bar-renderer iron-selected
+
+ ytd-app[darker-dark-theme],
+	ytd-app {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='1920' height='1080' viewBox='0 0 1920 1080' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.8'%3E%3Crect width='1920' height='1080' fill='%23067DB0'/%3E%3Crect width='1920' height='1080' fill='url(%23paint0_linear)'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='1694' y1='1029' x2='184.5' y2='22.5' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.0506657' stop-color='%23012940'/%3E%3Cstop offset='1' stop-color='%23003459' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+		background-repeat: no-repeat!important;
+		background-attachment: fixed;
+		background-position: 50% 33%, center;
+		background-blend-mode: screen!important;
+	}
+  ytd-app[darker-dark-theme],
+	ytd-app {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='1920' height='1080' viewBox='0 0 1920 1080' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.8'%3E%3Crect width='1920' height='1080' fill='%23067DB0'/%3E%3Crect width='1920' height='1080' fill='url(%23paint0_linear)'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='1694' y1='1029' x2='184.5' y2='22.5' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.0506657' stop-color='%23012940'/%3E%3Cstop offset='1' stop-color='%23003459' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+		  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+div#right-arrow.style-scope.yt
+d-feed-filter-chip-bar-renderer {
+	background-color:var(--container-removal)!important;
 }
 
 div.sbdd_b {
@@ -73,10 +187,7 @@ width: 90%;
 position: relative;
 margin: 5%;
 }
-ytd-thumbnail, ytd-playlist-thumbnail {
-    border-radius: 25px;
-    overflow: hidden;
-}
+
 ytd-searchbox[has-focus] #container.ytd-searchbox {
     box-shadow: none;
 }
@@ -146,13 +257,30 @@ div#meta.ytd-grid-video-renderer {
 paper-item{
 	transition: all .35s ease-in-out;
 }
+:root {
+	--color: #0088FF;
+	--standard-ease: cubic-bezier(0.4, 0.0, 0.2, 1)
+}
+.ytp-large-play-button.ytp-touch-device .ytp-large-play-button-bg,
+.ytp-cued-thumbnail-overlay:hover .ytp-large-play-button-bg,
+#heart-button button[aria-label="Remove heart"] yt-icon,
+#hearted.ytd-creator-heart-renderer,
+path[fill="#FF0000"],
+path[fill="#ff0000"],
+path[fill="#f80000"],
+path[fill="#FF8983"],
+path[fill="#f00"],
+path[fill="#F00"],
+circle[fill=red] {
+	fill: var(--color) !important;
+}
 paper-item:hover {
     box-shadow: 0px 03px 9px 1px var(--shadowColor);
 }
 ytd-compact-video-renderer:hover, ytd-compact-radio-renderer:hover, ytd-video-renderer:hover, ytd-grid-video-renderer:hover, ytd-grid-playlist-renderer:hover, ytd-radio-renderer:hover, ytd-promoted-video-renderer:hover, ytd-playlist-video-renderer:hover {
     box-shadow: 5px 5px 7px 2px var(--shadowColor);
     backdrop-filter: saturate(130%);
-    border: 1px solid #35446d8c;
+    border: 5px solid #35446d8c;
 }
 button#search-icon-legacy.ytd-searchbox:hover, ytd-topbar-logo-renderer:hover, ytd-toggle-button-renderer:hover, paper-button.ytd-subscribe-button-renderer:hover, ytd-button-renderer:hover, #notification-preference-button:hover, ytd-topbar-menu-button-renderer:hover, ytd-notification-topbar-button-renderer:hover {
     box-shadow: -1px -1px 6px 2px var(--shadowColor);
@@ -168,6 +296,19 @@ ytd-rich-item-renderer:hover {
     backdrop-filter: saturate(130%);
 }
 
+#search-icon-legacy.style-scope.ytd-searchbox{
+	width: 0; 
+    overflow: hidden; 
+	margin: 0; 
+    padding: 0;
+    outline: none;
+    border: none; 
+}
+#search-form:focus-within > #search-icon-legacy {
+    width: 65px;
+    margin-left: 10px;
+    border: 1px solid var(--ytd-searchbox-legacy-button-border-color)
+}
 @keyframes dropDown {
     from {
              height: 0px;
@@ -206,8 +347,316 @@ ytd-rich-item-renderer:hover {
     background: var(--scrollBar);
     border-radius: 10px;
 }
-/* Handle on hover     */
+/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--themeDark);
 }
+
+
+	ytd-thumbnail #thumbnail.ytd-thumbnail:not(:active) {
+		animation: yadpoof;
+		animation-duration: 0.3s;
+		animation-iteration-count: 1;
+		transition: opacity 0.5s;
+	}
+
+	@keyframes yadpoof {
+		0% {
+			transform: scale(1);
+			filter: blur(0px);
+		}
+		100% {
+			transform: scale(3.5);
+			opacity: 0;
+			filter: blur(50px);
+		}
+	}
+	button.yt-icon-button > yt-icon:active {
+		animation: yadpooficon;
+		animation-duration: 0.1s;
+		animation-iteration-count: 1;
+		transition: opacity 0.5s;
+	}
+	@keyframes yadpooficon {
+		0% {
+			transform: scale(1.5);
+			filter: blur(1px);
+		}
+		50% {
+			transform: scale(5.5);
+			opacity: 0.1;
+			filter: blur(5px);
+		}
+		90% {
+			transform: scale(15.5);
+			opacity: 0;
+			filter: blur(20px);
+		}
+		100% {
+			transform: scale(20.5);
+			opacity: 0;
+			filter: blur(50px);
+		}
+	}
+
+	.style-scope ytd-thumbnail {
+		animation: yadroad;
+		animation-duration: 0.7s;
+		animation-iteration-count: 1;
+	}
+
+	@keyframes yadroad {
+		0% {
+			transform: scale(0.1);
+			filter: blur(90px)
+		}
+		100% {
+			transform: scale(1);
+		}
 }
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+	/*2021 Youtube RetroWave by YAD*/
+	.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled,
+	tp-yt-paper-button.ytd-subscribe-button-renderer {
+		/*sub button*/
+		background-color: #0099CC;
+		border-radius: 5px;
+	}
+	.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled:hover,
+	tp-yt-paper-button:hover.ytd-subscribe-button-renderer:hover {
+		/*sub button*/
+		background-color: #0088CC;
+		border-radius: 5px;
+    transition: 0.5s
+}
+  
+
+
+	
+	div.sbdd_b, div.sbdd_a {
+		background-color:var(--container-removal)!important;
+	}
+
+
+
+
+	.sbfl_b {
+		/*report search prediction*/
+		background-color:var(--container-transparency)!important;
+  }
+	html[dark] .sbsb_a,
+
+	.sbsb_a {
+				background-color:var(--container-transparency)!important;
+	}
+
+	.gsfs {
+		font-size: 1.6rem;
+		color: #dfdfdf;
+	}
+	
+	#tooltip.tp-yt-paper-tooltip,
+	ytcp-paper-tooltip-placeholder[type=explanatory] #tooltip.ytcp-paper-tooltip-placeholder {		
+		border-radius: 4px;
+    color:#fff;
+    background-color: #32323200;
+		border: 3px solid rgba(255, 255, 255, 0.2); /* Border with transparency (optional) */
+
+	}
+
+	
+
+	/*buttton anim*/
+
+
+	/*channel on screen*/
+
+	.ytp-ce-channel-metadata,
+	.iv-card h2 {
+		color: #fff
+	}
+	.yt-ui-ellipsis {
+		background-color: #fff0;
+	}
+
+	/*icons*/
+	.guide-icon.ytd-guide-entry-renderer,
+	yt-icon.ytd-menu-service-item-renderer {
+		color: #fcfcfc;
+	}
+	/*studio*/
+	ytcp-header,
+	ytcp-navigation-drawer.ytcp-entity-page {
+		background: transparent
+	}
+	
+	
+	.sbpqs_a:before,.sbqs_c:before {
+		filter: invert(1);
+  }
+	html[dark] .sbqs_c:before {
+    filter: invert(0);
+  }
+
+  * {
+    color: #fff
+  }
+	html,
+  :root,
+  html, [light],
+  ytd-masthead,
+  html[darker-dark-theme],
+	html:not(.style-scope),
+	html:not(.style-scope)[system-icons],
+	html:not(.style-scope)[dark],
+	:not(.style-scope)[dark],
+  html[darker-dark-theme][dark], [darker-dark-theme] [dark],
+  html[system-icons][dark], html[system-icons] [dark],
+  html[darker-dark-theme][dark],
+  html[system-icons] {
+  
+	}
+#cinematics {
+          mix-blend-mode: lighten!important
+     }
+	
+
+ div#player-container.style-scope.ytd-watch-flexy{
+   border: 5px solid rgba(255, 255, 255, 0.2); /* Border with transparency (optional) */
+   border-radius: 16px
+	}
+/*Fonts */
+ @font-face {
+	font-family:'Netflix Sans';
+	font-weight:100;
+	src:url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+@font-face {
+	font-family:'Netflix Sans';
+	font-weight:300;
+	src:url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
+}
+@font-face {
+	font-family:'Netflix Sans';
+	font-weight:400;
+	src:url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+@font-face {
+	font-family:'Netflix Sans';
+	font-weight:700;
+	src:url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+@font-face {
+	font-family:'Netflix Sans';
+	font-weight:800;
+	src:url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
+}
+@font-face {
+	font-family:'Netflix Sans';
+	font-weight:900;
+	src:url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
+}
+.ytp-caption-segment {
+	--lt-color-gray-100: #f8f9fc;
+	--lt-color-gray-200: #f1f3f9;
+	--lt-color-gray-300: #dee3ed;
+	--lt-color-gray-400: #c2c9d6;
+	--lt-color-gray-500: #8f96a3;
+	--lt-color-gray-600: #5e636e;
+	--lt-color-gray-700: #2f3237;
+	--lt-color-gray-800: #1d1e20;
+	--lt-color-gray-900: #111213;
+	--lt-shadowDefault: 0 2px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 4px -1px rgba(0, 0, 0, 0.04);
+	--lt-shadowActive: 0 0 8px -2px rgba(0, 0, 0, 0.1), 0 6px 20px -3px rgba(0, 0, 0, 0.2);
+	--lt-color-white: #fff !important;
+	--lt-color-black: #111213 !important;
+	--lt-color-transparent: rgba(255, 255, 255, 0) !important;
+	--lt-color-background-light: var(--lt-color-gray-100) !important;
+	--lt-color-background-default: var(--lt-color-gray-200) !important;
+	--lt-color-background-dark: var(--lt-color-gray-300) !important;
+	--lt-color-border-light: var(--lt-color-gray-200) !important;
+	--lt-color-border-default: var(--lt-color-gray-300) !important;
+	--lt-color-border-dark: var(--lt-color-gray-400) !important;
+	--lt-color-text-very-light: var(--lt-color-gray-500) !important;
+	--lt-color-text-light: var(--lt-color-gray-600) !important;
+	--lt-color-text-default: var(--lt-color-gray-700) !important;
+	--lt-color-text-dark: var(--lt-color-gray-800) !important;
+	--lt-color-overlay-default: #fff !important;
+	--lt-color-overlay-dark: #fff !important;
+	--lt-color-overlay-transparent: rgba(0, 0, 0, 0.1) !important;
+	--lt-shadow-website-overlay: 0 0 7px 0 rgba(0, 0, 0, 0.3) !important;
+	text-size-adjust: none !important;
+	-webkit-font-smoothing: antialiased !important;
+	user-select: none !important;
+	direction: ltr !important;
+	white-space: nowrap !important;
+	text-align: center !important;
+	line-height: normal !important;
+	color: #ffffff !important;
+	text-shadow: #000000 0px 0px 7px !important;
+	font-family: Netflix Sans, Helvetica Nueue, Helvetica, Arial, sans-serif !important;
+	font-weight: bolder !important;
+}
+.ytp-big-mode > div > div > span > span > span {
+	font-size: 34.5px !important;
+}
+.ytp-hide-info-bar > div > div > span > span > span {
+	font-size: 27.5px !important;
+}
+.ytp-caption-segment {
+	background: none !important;
+}
+.caption-window {
+	text-align: center !important;
+	width: 100% !important;
+	height: auto !important;
+	left: 0% !important;
+	margin-left: auto !important;
+}
+.ytp-big-mode > div > .caption-window, .ytp-hide-info-bar > div > .caption-window {
+	bottom: 6.9468% !important;
+}
+.ytp-big-mode.ytp-autohide-active > div > .caption-window, .ytp-autohide > div > .caption-window {
+	bottom: 10% !important;
+}}
+  .html5-play-progress, .ytp-play-progress
+  {
+    background: linear-gradient(-45deg, #12A0FF, #19D9FF) !important;
+  }
+
+  .html5-scrubber-button, .ytp-scrubber-button
+  {
+    width: 8px !important;
+    height: 24px !important;
+    background-size: cover;
+    border: none !important;
+    margin-left: 0px !important;
+    margin-top: -5px !important;
+  }
+
+
+
+  .html5-progress-list, .ytp-progress-list, .video-ads .html5-progress-list.html5-ad-progress-list, .video-ads .ytp-progress-list.ytp-ad-progress-list
+  {
+    height: 7px !important;
+  }
+	
+
+  .ytp-volume-slider-track
+  {
+    background: linear-gradient(-45deg, #12A0FF, #19D9FF) !important;
+  }
+
